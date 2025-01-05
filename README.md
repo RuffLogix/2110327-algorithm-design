@@ -4,7 +4,7 @@ This repository contains the code of the course 2110327 Algorithm Design at Chul
 
 ## Grader
 
-The grader is available at [](https://grader.nattee.net/)
+The grader is available at [This](https://grader.nattee.net/)
 
 ## Course Material
 
