@@ -3,7 +3,7 @@
 using namespace std;
 
 int fw[200001];
-map<int, int> mp;
+int arr[200001];
 
 void update(int index) {
     for (; index <= 200000; index += index&-index) {
@@ -29,7 +29,7 @@ int main() {
         int x;
         cin >> x;
 
-        mp[x] = query(200000) - query(x);
+        arr[x] = query(200000) - query(x);
         update(x);
     }
 
@@ -37,7 +37,7 @@ int main() {
         int x;
         cin >> x;
 
-        cout << mp[x] << '\n';
+        cout << arr[x] << '\n';
     }
 
     return 0;
